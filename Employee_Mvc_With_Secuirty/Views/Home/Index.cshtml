@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <h2>@ViewBag.message</h2>
+        <h2>@ViewBag.msgId  @ViewBag.pId</h2>
+    </div>
+    <div>
+        <a asp-action="AddTeam">Adding team</a>
+    </div>
+    <div>
+        <a asp-action="ViewTeam">Get Details of Team</a>
+    </div>
+    <div>
+        <a asp-action="AddPlayer">Register Player</a>
+    </div>
+    <div>
+        <a asp-action="ViewPlayers">List of Players </a>
+    </div>
+</div>
